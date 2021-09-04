@@ -1,13 +1,14 @@
 import click
-from schema.roles import Permission
+from .schema.roles import Permission
 
 
-def permissions():
+def permission_prompt():
+    """Utility for prompting for multiple permissions."""
     permissions = set()
 
     while True:
         perm = click.prompt(f"Add a permission (Added so far: {' '.join([str(i) for i in list(permissions)])})",
-                            type=click.Choice(['perm1', 'perm2', 'perm3', 'exit'], case_sensitive=False), default='exit')
+                            type=click.Choice(['USER', 'GUEST', 'ROOM', 'ROLE', 'BOOKING', 'exit'], case_sensitive=False), default='exit')
 
         if perm == 'exit':
             if not permissions:

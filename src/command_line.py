@@ -1,26 +1,13 @@
 import click
 from click.termui import hidden_prompt_func, prompt
 from .schema.database_setup import global_init
-from .schema.roles import Permission
+from .schema.roles import Role
+from .cli_utils import permission_prompt
 import logging
+from .schema.database_utils import add_user, add_role, print_users, print_roles
 
 
-def get_permissions():
-    permissions = set()
-
-    while True:
-        perm = click.prompt(f"Add a permission (Added so far: {' '.join([str(i) for i in list(permissions)])})",
-                            type=click.Choice(['perm1', 'perm2', 'perm3', 'exit'], case_sensitive=False), default='exit')
-
-        if perm == 'exit':
-            if not permissions:
-                click.echo("Enter at least one permission")
-                continue
-            else:
-                break
-
-        permissions.add(Permission[perm])
-    return list(permissions)
+# TODO add the other cli commands
 
 
 logging.basicConfig(
@@ -37,11 +24,11 @@ formatter = logging.Formatter(
 ch.setFormatter(formatter)
 logging.getLogger('').addHandler(ch)
 
+logger = logging.getLogger("cli")
+
 
 @click.group(invoke_without_command=True)
 def cli():
-    logger = logging.getLogger('main')
-    logger.error('Something is in the way')
     global_init()
     return
 
@@ -52,12 +39,27 @@ def echo(message):
     click.echo(message)
 
 
-@cli.command()
+@cli.command("add-user")
 @click.option('--role-name', required=True, prompt="The name of the role")
-@click.option('--permissions', required=True, prompt='The permissions of the role', multiple=True)
-@cli.command()
 @click.option('--username', required=True, prompt="Your Username")
 @click.password_option()
 @click.option('--email', required=True, prompt="Your email")
-@click.option()
-def add_user(username, password, email):
+def add_user_db(username, email, password, role_name):
+    add_user(username, email, password, role_name)
+
+
+@cli.command()
+@click.option('--role-name', prompt="The name of the role")
+def add_role_db(role_name):
+    permissions = permission_prompt()
+    add_role(role_name, permissions)
+
+
+@cli.command()
+def show_roles():
+    print_roles()
+
+
+@cli.command()
+def show_users():
+    print_users()

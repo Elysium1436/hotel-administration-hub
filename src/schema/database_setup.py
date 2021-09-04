@@ -2,4 +2,4 @@ import mongoengine
 
 
 def global_init():
-    mongoengine.register_connection(alias='core', name='jasmin_db')
+    mongoengine.connect(alias='core', db='jasmin_db')

@@ -6,7 +6,8 @@ setup(
     pymodules=['mongtest'],
     install_requires=[
         'Click',
-        'mongoengine'
+        'mongoengine',
+        'tabulate'
     ],
     entry_points={
         'console_scripts': [

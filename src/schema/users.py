@@ -1,8 +1,8 @@
 from enum import Enum
-from typing_extensions import Required
 import mongoengine
+from mongoengine.fields import ReferenceField
 from werkzeug.security import generate_password_hash, check_password_hash
-from schema.roles import Role
+from .roles import Role
 import logging
 
 
@@ -13,7 +13,7 @@ class User(mongoengine.Document):
     username = mongoengine.StringField(required=True, unique=True)
     email = mongoengine.EmailField(required=True, unique=True)
     password_hash = mongoengine.StringField(required=True)
-    roles = mongoengine.EmbeddedDocumentListField(Role)
+    roles = mongoengine.ListField(ReferenceField(Role))
 
     @property
     def password(self):
