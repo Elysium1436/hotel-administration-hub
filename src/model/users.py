@@ -35,8 +35,3 @@ class User(mongoengine.Document):
         logging.debug(
             f"User {self.user} doesn't has the permission {permission}")
         return False
-
-    meta = {
-        'db_alias': 'core',
-        'collection': 'snakes'
-    }

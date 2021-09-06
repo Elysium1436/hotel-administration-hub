@@ -1,6 +1,26 @@
-from schema.roles import Role, Permission
+from typing import List
 import logging
+from dataservice_utils import table_print_schema
+from model.roles import Role, Permission
+
 logger = logging.getLogger(__name__)
+
+
+def add_role(role_name, permissions: List[Permission]):
+    role = Role()
+    role.role_name = role_name
+    role.permissions = permissions
+
+    role.save()
+
+
+def view_roles():
+    table_print_schema(Role, ['role_name', 'permissions'])
+
+
+def delete_role(role_name):
+    role = Role.objects(role_name=role_name)
+    role.delete()
 
 
 def find_role(role_name: str) -> Role:

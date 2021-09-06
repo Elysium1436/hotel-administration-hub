@@ -1,5 +1,5 @@
 import click
-from .schema.roles import Permission
+from .model.roles import Permission
 
 
 def permission_prompt():
