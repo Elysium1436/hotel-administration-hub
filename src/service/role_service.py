@@ -6,12 +6,14 @@ from model.roles import Role, Permission
 logger = logging.getLogger(__name__)
 
 
-def add_role(role_name, permissions: List[Permission]):
+def add_role(role_name, permissions: List[Permission], return_instance=False):
     role = Role()
     role.role_name = role_name
     role.permissions = permissions
 
     role.save()
+    if return_instance:
+        return role
 
 
 def view_roles():

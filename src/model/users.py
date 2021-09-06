@@ -4,16 +4,18 @@ from mongoengine.fields import ReferenceField
 from werkzeug.security import generate_password_hash, check_password_hash
 from .roles import Role
 import logging
-
+from roles import Role
 
 logger = logging.getLogger(__name__)
+
+#!FIXME Change the role to only reference
 
 
 class User(mongoengine.Document):
     username = mongoengine.StringField(required=True, unique=True)
     email = mongoengine.EmailField(required=True, unique=True)
     password_hash = mongoengine.StringField(required=True)
-    roles = mongoengine.ListField(ReferenceField(Role))
+    role = mongoengine.ReferenceField(Role)
 
     @property
     def password(self):
@@ -35,3 +37,9 @@ class User(mongoengine.Document):
         logging.debug(
             f"User {self.user} doesn't has the permission {permission}")
         return False
+
+    def set_role_by_name(self, role_name: str):
+        role = Role.objects(role_name=role_name).first()
+        if role is None:
+            raise ValueError("No Role with that name.")
+        self.role = role
