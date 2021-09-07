@@ -1,14 +1,10 @@
 from enum import Enum
 import mongoengine
-from mongoengine.fields import ReferenceField
 from werkzeug.security import generate_password_hash, check_password_hash
 from .roles import Role
 import logging
-from roles import Role
 
 logger = logging.getLogger(__name__)
-
-#!FIXME Change the role to only reference
 
 
 class User(mongoengine.Document):

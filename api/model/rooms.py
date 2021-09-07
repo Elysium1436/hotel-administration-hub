@@ -1,4 +1,3 @@
-from typing_extensions import Required
 import mongoengine
 from .bookings import Booking
 from mongoengine import ReferenceField

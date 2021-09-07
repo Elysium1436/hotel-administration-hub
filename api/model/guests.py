@@ -1,6 +1,6 @@
 import mongoengine
 import datetime
-from bookings import Booking
+from .bookings import Booking
 from mongoengine import ReferenceField
 
 

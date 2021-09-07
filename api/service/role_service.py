@@ -1,7 +1,7 @@
 from typing import List
 import logging
-from dataservice_utils import table_print_schema
-from model.roles import Role, Permission
+from .dataservice_utils import table_print_schema
+from ..model.roles import Role, Permission
 
 logger = logging.getLogger(__name__)
 

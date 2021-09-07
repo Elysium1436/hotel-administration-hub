@@ -1,5 +1,5 @@
-from dataservice_utils import table_print_schema
-from model.rooms import Room
+from .dataservice_utils import table_print_schema
+from ..model.rooms import Room
 
 
 def add_room(room_name, max_people, return_instance=False):

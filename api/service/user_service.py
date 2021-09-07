@@ -1,6 +1,5 @@
-from dataservice_utils import table_print_schema
-from model.users import User
-from model.roles import Role
+from .dataservice_utils import table_print_schema
+from ..model.users import User
 
 
 def add_user(name, email, password, role_name, return_instance=False):
@@ -24,6 +23,6 @@ def view_users():
     table_print_schema(User, ['username', 'email', 'password_hash'])
 
 
-def delete_user(username, email):
-    user = User.objects(username=username).first()
+def delete_user(email):
+    user = User.objects(email=email).first()
     user.delete()
