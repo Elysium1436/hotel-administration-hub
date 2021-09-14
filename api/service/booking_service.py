@@ -2,7 +2,7 @@ from .dataservice_utils import table_print_schema
 from ..model.bookings import Booking
 
 
-def add_booking(guest, date_in, date_out, total_price, room, status='unconfirmed'):
+def add_booking(guest, date_in, date_out, total_price, room, status="unconfirmed"):
     booking = Booking()
     booking.guest = guest
     booking.checkin = date_in
@@ -18,6 +18,4 @@ def find_booking(booking_id):
 
 
 def view_bookings():
-    bookings = Booking.objects().all()
-    table_print_schema(
-        bookings, ['checkin_date', 'checkout_date', 'total_price', 'status'])
+    table_print_schema(Booking, ["id", "checkin", "checkout", "total_price", "status"])

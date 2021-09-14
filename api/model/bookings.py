@@ -1,4 +1,3 @@
-from typing_extensions import Required
 import mongoengine
 import datetime
 
@@ -11,7 +10,7 @@ class Booking(mongoengine.Document):
     checkin = mongoengine.DateTimeField(required=True)
     checkout = mongoengine.DateTimeField(required=True)
     total_price = mongoengine.FloatField(required=True)
-    room = mongoengine.ReferenceField(required=True)
+    room = mongoengine.ReferenceField('Room', required=True)
     status = mongoengine.StringField(default='unconfirmed', required=True)
 
     @property

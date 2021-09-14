@@ -1,0 +1,1155 @@
+[
+    {
+        "label": "flask",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "flask",
+        "description": "flask",
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Namespace",
+        "importPath": "flask_restx",
+        "description": "flask_restx",
+        "isExtraImport": true,
+        "detail": "flask_restx",
+        "documentation": {}
+    },
+    {
+        "label": "Resource",
+        "importPath": "flask_restx",
+        "description": "flask_restx",
+        "isExtraImport": true,
+        "detail": "flask_restx",
+        "documentation": {}
+    },
+    {
+        "label": "fields",
+        "importPath": "flask_restx",
+        "description": "flask_restx",
+        "isExtraImport": true,
+        "detail": "flask_restx",
+        "documentation": {}
+    },
+    {
+        "label": "Api",
+        "importPath": "flask_restx",
+        "description": "flask_restx",
+        "isExtraImport": true,
+        "detail": "flask_restx",
+        "documentation": {}
+    },
+    {
+        "label": "Resource",
+        "importPath": "flask_restx",
+        "description": "flask_restx",
+        "isExtraImport": true,
+        "detail": "flask_restx",
+        "documentation": {}
+    },
+    {
+        "label": "fields",
+        "importPath": "flask_restx",
+        "description": "flask_restx",
+        "isExtraImport": true,
+        "detail": "flask_restx",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "jwt_required",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "JWTManager",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "marshal",
+        "importPath": "flask_restx.marshalling",
+        "description": "flask_restx.marshalling",
+        "isExtraImport": true,
+        "detail": "flask_restx.marshalling",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "Resource",
+        "importPath": "flask_restplus",
+        "description": "flask_restplus",
+        "isExtraImport": true,
+        "detail": "flask_restplus",
+        "documentation": {}
+    },
+    {
+        "label": "fields",
+        "importPath": "flask_restplus",
+        "description": "flask_restplus",
+        "isExtraImport": true,
+        "detail": "flask_restplus",
+        "documentation": {}
+    },
+    {
+        "label": "mongoengine",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "ReferenceField",
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "isExtraImport": true,
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "ReferenceField",
+        "importPath": "mongoengine",
+        "description": "mongoengine",
+        "isExtraImport": true,
+        "detail": "mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "enum",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "enum",
+        "description": "enum",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "unique",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "auto",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "unique",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "tabulate",
+        "importPath": "tabulate",
+        "description": "tabulate",
+        "isExtraImport": true,
+        "detail": "tabulate",
+        "documentation": {}
+    },
+    {
+        "label": "click",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "click",
+        "description": "click",
+        "detail": "click",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "booking_service",
+        "importPath": "api.service",
+        "description": "api.service",
+        "isExtraImport": true,
+        "detail": "api.service",
+        "documentation": {}
+    },
+    {
+        "label": "guest_service",
+        "importPath": "api.service",
+        "description": "api.service",
+        "isExtraImport": true,
+        "detail": "api.service",
+        "documentation": {}
+    },
+    {
+        "label": "role_service",
+        "importPath": "api.service",
+        "description": "api.service",
+        "isExtraImport": true,
+        "detail": "api.service",
+        "documentation": {}
+    },
+    {
+        "label": "room_service",
+        "importPath": "api.service",
+        "description": "api.service",
+        "isExtraImport": true,
+        "detail": "api.service",
+        "documentation": {}
+    },
+    {
+        "label": "user_service",
+        "importPath": "api.service",
+        "description": "api.service",
+        "isExtraImport": true,
+        "detail": "api.service",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "api.control.blueprints.api.user_api",
+        "description": "api.control.blueprints.api.user_api",
+        "peekOfCode": "class User(Resource):\n\t@jwt_required()\n\tdef get(self):\n\t\t\"\"\"Get info on a user with a specified id, username or email.\"\"\"\n\t\tuser_id = request.args.get('id', None)\n\t\tusername = request.args.get('username', None)\n\t\temail = request.args.get('email', None)\n\t\tcount = (user_id,username,email)\n\t\tif count == 1:\n\t\t\treturn {'message':\"Invalid Request, Select only one query Parameters\"}, 401",
+        "detail": "api.control.blueprints.api.user_api",
+        "documentation": {}
+    },
+    {
+        "label": "api",
+        "kind": 5,
+        "importPath": "api.control.blueprints.api.user_api",
+        "description": "api.control.blueprints.api.user_api",
+        "peekOfCode": "api = Namespace(\"user namespace\", \"The user interaction interface.\")\nuser_model = {\n\t'id': fields.Integer(),\n\t'username': fields.String(),\n\t'email': fields.String(),\n\t'registered_date': fields.DateTime(),\n\t'role_name': fields.String(lambda x: x.role.role_name),\n\t'permissions': fields.List(lambda x: x.role.permissions)\n}\nuser_model = api.model(\"User\", )",
+        "detail": "api.control.blueprints.api.user_api",
+        "documentation": {}
+    },
+    {
+        "label": "user_model",
+        "kind": 5,
+        "importPath": "api.control.blueprints.api.user_api",
+        "description": "api.control.blueprints.api.user_api",
+        "peekOfCode": "user_model = {\n\t'id': fields.Integer(),\n\t'username': fields.String(),\n\t'email': fields.String(),\n\t'registered_date': fields.DateTime(),\n\t'role_name': fields.String(lambda x: x.role.role_name),\n\t'permissions': fields.List(lambda x: x.role.permissions)\n}\nuser_model = api.model(\"User\", )\n@api.route('/')",
+        "detail": "api.control.blueprints.api.user_api",
+        "documentation": {}
+    },
+    {
+        "label": "user_model",
+        "kind": 5,
+        "importPath": "api.control.blueprints.api.user_api",
+        "description": "api.control.blueprints.api.user_api",
+        "peekOfCode": "user_model = api.model(\"User\", )\n@api.route('/')\nclass User(Resource):\n\t@jwt_required()\n\tdef get(self):\n\t\t\"\"\"Get info on a user with a specified id, username or email.\"\"\"\n\t\tuser_id = request.args.get('id', None)\n\t\tusername = request.args.get('username', None)\n\t\temail = request.args.get('email', None)\n\t\tcount = (user_id,username,email)",
+        "detail": "api.control.blueprints.api.user_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tuser_id",
+        "kind": 5,
+        "importPath": "api.control.blueprints.api.user_api",
+        "description": "api.control.blueprints.api.user_api",
+        "peekOfCode": "\t\tuser_id = request.args.get('id', None)\n\t\tusername = request.args.get('username', None)\n\t\temail = request.args.get('email', None)\n\t\tcount = (user_id,username,email)\n\t\tif count == 1:\n\t\t\treturn {'message':\"Invalid Request, Select only one query Parameters\"}, 401\n\t\tif ()\n\t\tpass\n\tdef post(self):\n\t\t\"\"\"Insert New User. Needs at least admin privilege.\"\"\"",
+        "detail": "api.control.blueprints.api.user_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tusername",
+        "kind": 5,
+        "importPath": "api.control.blueprints.api.user_api",
+        "description": "api.control.blueprints.api.user_api",
+        "peekOfCode": "\t\tusername = request.args.get('username', None)\n\t\temail = request.args.get('email', None)\n\t\tcount = (user_id,username,email)\n\t\tif count == 1:\n\t\t\treturn {'message':\"Invalid Request, Select only one query Parameters\"}, 401\n\t\tif ()\n\t\tpass\n\tdef post(self):\n\t\t\"\"\"Insert New User. Needs at least admin privilege.\"\"\"\n\t\tpass",
+        "detail": "api.control.blueprints.api.user_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\temail",
+        "kind": 5,
+        "importPath": "api.control.blueprints.api.user_api",
+        "description": "api.control.blueprints.api.user_api",
+        "peekOfCode": "\t\temail = request.args.get('email', None)\n\t\tcount = (user_id,username,email)\n\t\tif count == 1:\n\t\t\treturn {'message':\"Invalid Request, Select only one query Parameters\"}, 401\n\t\tif ()\n\t\tpass\n\tdef post(self):\n\t\t\"\"\"Insert New User. Needs at least admin privilege.\"\"\"\n\t\tpass\n\tdef delete(self):",
+        "detail": "api.control.blueprints.api.user_api",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tcount",
+        "kind": 5,
+        "importPath": "api.control.blueprints.api.user_api",
+        "description": "api.control.blueprints.api.user_api",
+        "peekOfCode": "\t\tcount = (user_id,username,email)\n\t\tif count == 1:\n\t\t\treturn {'message':\"Invalid Request, Select only one query Parameters\"}, 401\n\t\tif ()\n\t\tpass\n\tdef post(self):\n\t\t\"\"\"Insert New User. Needs at least admin privilege.\"\"\"\n\t\tpass\n\tdef delete(self):\n\t\tpass",
+        "detail": "api.control.blueprints.api.user_api",
+        "documentation": {}
+    },
+    {
+        "label": "user_identity_loader",
+        "kind": 2,
+        "importPath": "api.control.blueprints.api_utils",
+        "description": "api.control.blueprints.api_utils",
+        "peekOfCode": "def user_identity_loader(user):\n    return user.id\n@jwt.user_lookup_loader\ndef user_lookup_callback(_jwt_header, jwt_data):\n    id = jwt_data['sub']\n    return find_user_by_id(id)",
+        "detail": "api.control.blueprints.api_utils",
+        "documentation": {}
+    },
+    {
+        "label": "user_lookup_callback",
+        "kind": 2,
+        "importPath": "api.control.blueprints.api_utils",
+        "description": "api.control.blueprints.api_utils",
+        "peekOfCode": "def user_lookup_callback(_jwt_header, jwt_data):\n    id = jwt_data['sub']\n    return find_user_by_id(id)",
+        "detail": "api.control.blueprints.api_utils",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 5,
+        "importPath": "api.control.blueprints.api_utils",
+        "description": "api.control.blueprints.api_utils",
+        "peekOfCode": "jwt = JWTManager()\n@jwt.user_identity_loader\ndef user_identity_loader(user):\n    return user.id\n@jwt.user_lookup_loader\ndef user_lookup_callback(_jwt_header, jwt_data):\n    id = jwt_data['sub']\n    return find_user_by_id(id)",
+        "detail": "api.control.blueprints.api_utils",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "api.control.app",
+        "description": "api.control.app",
+        "peekOfCode": "app = Flask(__name__)\napp.config.from_object(config_dict[os.getenv('CONFIG')])\ndatabase_setup.global_init()\njwt.init_app(app)",
+        "detail": "api.control.app",
+        "documentation": {}
+    },
+    {
+        "label": "Booking",
+        "kind": 6,
+        "importPath": "api.model.bookings",
+        "description": "api.model.bookings",
+        "peekOfCode": "class Booking(mongoengine.Document):\n    guest = mongoengine.ReferenceField('Guest', required=True)\n    booked_date = mongoengine.DateTimeField(default=datetime.datetime.now)\n    checkin = mongoengine.DateTimeField(required=True)\n    checkout = mongoengine.DateTimeField(required=True)\n    total_price = mongoengine.FloatField(required=True)\n    room = mongoengine.ReferenceField('Room', required=True)\n    status = mongoengine.StringField(default='unconfirmed', required=True)\n    @property\n    def total_days(self):",
+        "detail": "api.model.bookings",
+        "documentation": {}
+    },
+    {
+        "label": "Guest",
+        "kind": 6,
+        "importPath": "api.model.guests",
+        "description": "api.model.guests",
+        "peekOfCode": "class Guest(mongoengine.Document):\n    registered_date = mongoengine.DateTimeField(default=datetime.datetime.now)\n    name = mongoengine.StringField(required=True)\n    surname = mongoengine.StringField(required=True)\n    email = mongoengine.EmailField(required=True, unique=True)\n    bookings = mongoengine.ListField(ReferenceField(Booking))",
+        "detail": "api.model.guests",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "kind": 6,
+        "importPath": "api.model.roles",
+        "description": "api.model.roles",
+        "peekOfCode": "class Permission(enum.Enum):\n    USER = 'USER'\n    ROOM = 'ROOM'\n    GUEST = 'GUEST'\n    ROLE = 'ROLE'\n    BOOKING = 'BOOKING'\nclass Role(mongoengine.Document):\n    role_name = mongoengine.StringField(required=True, unique=True)\n    permissions = mongoengine.ListField(mongoengine.EnumField(Permission))",
+        "detail": "api.model.roles",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "kind": 6,
+        "importPath": "api.model.roles",
+        "description": "api.model.roles",
+        "peekOfCode": "class Role(mongoengine.Document):\n    role_name = mongoengine.StringField(required=True, unique=True)\n    permissions = mongoengine.ListField(mongoengine.EnumField(Permission))",
+        "detail": "api.model.roles",
+        "documentation": {}
+    },
+    {
+        "label": "Room",
+        "kind": 6,
+        "importPath": "api.model.rooms",
+        "description": "api.model.rooms",
+        "peekOfCode": "class Room(mongoengine.Document):\n    room_name = mongoengine.StringField(required=True, unique=True)\n    max_people = mongoengine.IntField()\n    bookings = mongoengine.ListField(ReferenceField(Booking))",
+        "detail": "api.model.rooms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "api.model.users",
+        "description": "api.model.users",
+        "peekOfCode": "class User(mongoengine.Document):\n    registered_date = mongoengine.DateTimeField(default=datetime.datetime.now)\n    username = mongoengine.StringField(required=True, unique=True)\n    email = mongoengine.EmailField(required=True, unique=True)\n    password_hash = mongoengine.StringField(required=True)\n    role = mongoengine.ReferenceField(Role)\n    @property\n    def password(self):\n        raise AttributeError(\"Cannot access password\")\n    @password.setter",
+        "detail": "api.model.users",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "api.model.users",
+        "description": "api.model.users",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass User(mongoengine.Document):\n    registered_date = mongoengine.DateTimeField(default=datetime.datetime.now)\n    username = mongoengine.StringField(required=True, unique=True)\n    email = mongoengine.EmailField(required=True, unique=True)\n    password_hash = mongoengine.StringField(required=True)\n    role = mongoengine.ReferenceField(Role)\n    @property\n    def password(self):\n        raise AttributeError(\"Cannot access password\")",
+        "detail": "api.model.users",
+        "documentation": {}
+    },
+    {
+        "label": "add_booking",
+        "kind": 2,
+        "importPath": "api.service.booking_service",
+        "description": "api.service.booking_service",
+        "peekOfCode": "def add_booking(guest, date_in, date_out, total_price, room, status='unconfirmed'):\n    booking = Booking()\n    booking.guest = guest\n    booking.checkin = date_in\n    booking.checkout = date_out\n    booking.total_price = total_price\n    booking.status = status\n    booking.room = room\n    booking.save()\ndef find_booking(booking_id):",
+        "detail": "api.service.booking_service",
+        "documentation": {}
+    },
+    {
+        "label": "find_booking",
+        "kind": 2,
+        "importPath": "api.service.booking_service",
+        "description": "api.service.booking_service",
+        "peekOfCode": "def find_booking(booking_id):\n    return Booking.objects(id=booking_id).first()\ndef view_bookings():\n    bookings = Booking.objects().all()\n    table_print_schema(\n        bookings, ['checkin_date', 'checkout_date', 'total_price', 'status'])",
+        "detail": "api.service.booking_service",
+        "documentation": {}
+    },
+    {
+        "label": "view_bookings",
+        "kind": 2,
+        "importPath": "api.service.booking_service",
+        "description": "api.service.booking_service",
+        "peekOfCode": "def view_bookings():\n    bookings = Booking.objects().all()\n    table_print_schema(\n        bookings, ['checkin_date', 'checkout_date', 'total_price', 'status'])",
+        "detail": "api.service.booking_service",
+        "documentation": {}
+    },
+    {
+        "label": "global_init",
+        "kind": 2,
+        "importPath": "api.service.database_setup",
+        "description": "api.service.database_setup",
+        "peekOfCode": "def global_init():\n    mongoengine.connect(\"default\", name=\"jasmin_db\")",
+        "detail": "api.service.database_setup",
+        "documentation": {}
+    },
+    {
+        "label": "table_print_schema",
+        "kind": 2,
+        "importPath": "api.service.dataservice_utils",
+        "description": "api.service.dataservice_utils",
+        "peekOfCode": "def table_print_schema(cls, columns):\n    objs = cls.objects().all()\n    table = [[str(getattr(obj, col)) for col in columns] for obj in objs]\n    click.echo(tabulate(table, headers=columns))",
+        "detail": "api.service.dataservice_utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "api.service.dataservice_utils",
+        "description": "api.service.dataservice_utils",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef table_print_schema(cls, columns):\n    objs = cls.objects().all()\n    table = [[str(getattr(obj, col)) for col in columns] for obj in objs]\n    click.echo(tabulate(table, headers=columns))",
+        "detail": "api.service.dataservice_utils",
+        "documentation": {}
+    },
+    {
+        "label": "add_guest",
+        "kind": 2,
+        "importPath": "api.service.guest_service",
+        "description": "api.service.guest_service",
+        "peekOfCode": "def add_guest(name, surname, email, return_instance=False):\n    guest = Guest()\n    guest.name = name\n    guest.surname = surname\n    guest.email = email\n    guest.save()\n    if return_instance:\n        return guest\ndef find_guest(email):\n    guest = Guest.objects(email=email).first()",
+        "detail": "api.service.guest_service",
+        "documentation": {}
+    },
+    {
+        "label": "find_guest",
+        "kind": 2,
+        "importPath": "api.service.guest_service",
+        "description": "api.service.guest_service",
+        "peekOfCode": "def find_guest(email):\n    guest = Guest.objects(email=email).first()\n    if guest is None:\n        raise ValueError(f\"Guest with email \\\"{email}\\\" doesn't exist.\")\n    return guest\ndef view_guests():\n    guests = Guest.objects().all()\n    table_print_schema(Guest, ['name', 'surname', 'email', 'password_hash'])\ndef delete_guest(email):\n    guest = Guest.objects(email=email).first()",
+        "detail": "api.service.guest_service",
+        "documentation": {}
+    },
+    {
+        "label": "view_guests",
+        "kind": 2,
+        "importPath": "api.service.guest_service",
+        "description": "api.service.guest_service",
+        "peekOfCode": "def view_guests():\n    guests = Guest.objects().all()\n    table_print_schema(Guest, ['name', 'surname', 'email', 'password_hash'])\ndef delete_guest(email):\n    guest = Guest.objects(email=email).first()\n    guest.delete()",
+        "detail": "api.service.guest_service",
+        "documentation": {}
+    },
+    {
+        "label": "delete_guest",
+        "kind": 2,
+        "importPath": "api.service.guest_service",
+        "description": "api.service.guest_service",
+        "peekOfCode": "def delete_guest(email):\n    guest = Guest.objects(email=email).first()\n    guest.delete()",
+        "detail": "api.service.guest_service",
+        "documentation": {}
+    },
+    {
+        "label": "add_role",
+        "kind": 2,
+        "importPath": "api.service.role_service",
+        "description": "api.service.role_service",
+        "peekOfCode": "def add_role(role_name, permissions: List[Permission], return_instance=False):\n    role = Role()\n    role.role_name = role_name\n    role.permissions = permissions\n    role.save()\n    if return_instance:\n        return role\ndef view_roles():\n    table_print_schema(Role, ['role_name', 'permissions'])\ndef delete_role(role_name):",
+        "detail": "api.service.role_service",
+        "documentation": {}
+    },
+    {
+        "label": "view_roles",
+        "kind": 2,
+        "importPath": "api.service.role_service",
+        "description": "api.service.role_service",
+        "peekOfCode": "def view_roles():\n    table_print_schema(Role, ['role_name', 'permissions'])\ndef delete_role(role_name):\n    role = Role.objects(role_name=role_name)\n    role.delete()\ndef find_role(role_name: str) -> Role:\n    try:\n        role = Role.objects(role_name=role_name).first()\n        assert isinstance(role, Role)\n    except AssertionError:",
+        "detail": "api.service.role_service",
+        "documentation": {}
+    },
+    {
+        "label": "delete_role",
+        "kind": 2,
+        "importPath": "api.service.role_service",
+        "description": "api.service.role_service",
+        "peekOfCode": "def delete_role(role_name):\n    role = Role.objects(role_name=role_name)\n    role.delete()\ndef find_role(role_name: str) -> Role:\n    try:\n        role = Role.objects(role_name=role_name).first()\n        assert isinstance(role, Role)\n    except AssertionError:\n        logger.error('Assertion Error', exc_info=True)\n        return None",
+        "detail": "api.service.role_service",
+        "documentation": {}
+    },
+    {
+        "label": "find_role",
+        "kind": 2,
+        "importPath": "api.service.role_service",
+        "description": "api.service.role_service",
+        "peekOfCode": "def find_role(role_name: str) -> Role:\n    try:\n        role = Role.objects(role_name=role_name).first()\n        assert isinstance(role, Role)\n    except AssertionError:\n        logger.error('Assertion Error', exc_info=True)\n        return None\n    logging.info(f'Role {role.name} has been found.')\n    return role\ndef find_roles_by_permission(permission) -> list:",
+        "detail": "api.service.role_service",
+        "documentation": {}
+    },
+    {
+        "label": "find_roles_by_permission",
+        "kind": 2,
+        "importPath": "api.service.role_service",
+        "description": "api.service.role_service",
+        "peekOfCode": "def find_roles_by_permission(permission) -> list:\n    roles = Role.objects().all()\n    roles_with_permission = []\n    for role in roles:\n        if permission in role.permissions:\n            roles_with_permission.append(role)\n    return roles_with_permission",
+        "detail": "api.service.role_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "api.service.role_service",
+        "description": "api.service.role_service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef add_role(role_name, permissions: List[Permission], return_instance=False):\n    role = Role()\n    role.role_name = role_name\n    role.permissions = permissions\n    role.save()\n    if return_instance:\n        return role\ndef view_roles():\n    table_print_schema(Role, ['role_name', 'permissions'])",
+        "detail": "api.service.role_service",
+        "documentation": {}
+    },
+    {
+        "label": "add_room",
+        "kind": 2,
+        "importPath": "api.service.room_service",
+        "description": "api.service.room_service",
+        "peekOfCode": "def add_room(room_name, max_people, return_instance=False):\n    room = Room()\n    room.room_name = room_name\n    room.max_people = max_people\n    room.save()\n    if return_instance:\n        return room\ndef find_room(room_name):\n    return Room.objects(room_name=room_name).first()\ndef view_rooms():",
+        "detail": "api.service.room_service",
+        "documentation": {}
+    },
+    {
+        "label": "find_room",
+        "kind": 2,
+        "importPath": "api.service.room_service",
+        "description": "api.service.room_service",
+        "peekOfCode": "def find_room(room_name):\n    return Room.objects(room_name=room_name).first()\ndef view_rooms():\n    rooms = Room.objects().all()\n    table_print_schema(Room, ['room_name', 'max_people'])\ndef delete_room(room_name):\n    room = Room.objects(room_name=room_name).first()\n    room.delete()",
+        "detail": "api.service.room_service",
+        "documentation": {}
+    },
+    {
+        "label": "view_rooms",
+        "kind": 2,
+        "importPath": "api.service.room_service",
+        "description": "api.service.room_service",
+        "peekOfCode": "def view_rooms():\n    rooms = Room.objects().all()\n    table_print_schema(Room, ['room_name', 'max_people'])\ndef delete_room(room_name):\n    room = Room.objects(room_name=room_name).first()\n    room.delete()",
+        "detail": "api.service.room_service",
+        "documentation": {}
+    },
+    {
+        "label": "delete_room",
+        "kind": 2,
+        "importPath": "api.service.room_service",
+        "description": "api.service.room_service",
+        "peekOfCode": "def delete_room(room_name):\n    room = Room.objects(room_name=room_name).first()\n    room.delete()",
+        "detail": "api.service.room_service",
+        "documentation": {}
+    },
+    {
+        "label": "add_user",
+        "kind": 2,
+        "importPath": "api.service.user_service",
+        "description": "api.service.user_service",
+        "peekOfCode": "def add_user(username, email, password, role_name, return_instance=False):\n    user = User()\n    user.username = username\n    user.email = email\n    user.password = password\n    user.set_role_by_name(role_name)\n    user.save()\n    if return_instance:\n        user = find_user_by_email(email)\n        return user",
+        "detail": "api.service.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_users",
+        "kind": 2,
+        "importPath": "api.service.user_service",
+        "description": "api.service.user_service",
+        "peekOfCode": "def get_all_users():\n    return User.objects().all()\ndef find_user_by_id(id: int):\n    user = User.objects(id=id).first()\n    return user\ndef find_user_by_username(username: str):\n    return User.objects(username=username).first()\ndef find_user_by_email(email: str):\n    return User.objects(email=email).first()\ndef view_users():",
+        "detail": "api.service.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "find_user_by_id",
+        "kind": 2,
+        "importPath": "api.service.user_service",
+        "description": "api.service.user_service",
+        "peekOfCode": "def find_user_by_id(id: int):\n    user = User.objects(id=id).first()\n    return user\ndef find_user_by_username(username: str):\n    return User.objects(username=username).first()\ndef find_user_by_email(email: str):\n    return User.objects(email=email).first()\ndef view_users():\n    table_print_schema(User, [\"username\", \"email\", \"password_hash\"])\ndef delete_user(email):",
+        "detail": "api.service.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "find_user_by_username",
+        "kind": 2,
+        "importPath": "api.service.user_service",
+        "description": "api.service.user_service",
+        "peekOfCode": "def find_user_by_username(username: str):\n    return User.objects(username=username).first()\ndef find_user_by_email(email: str):\n    return User.objects(email=email).first()\ndef view_users():\n    table_print_schema(User, [\"username\", \"email\", \"password_hash\"])\ndef delete_user(email):\n    user = User.objects(email=email).first()\n    user.delete()",
+        "detail": "api.service.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "find_user_by_email",
+        "kind": 2,
+        "importPath": "api.service.user_service",
+        "description": "api.service.user_service",
+        "peekOfCode": "def find_user_by_email(email: str):\n    return User.objects(email=email).first()\ndef view_users():\n    table_print_schema(User, [\"username\", \"email\", \"password_hash\"])\ndef delete_user(email):\n    user = User.objects(email=email).first()\n    user.delete()",
+        "detail": "api.service.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "view_users",
+        "kind": 2,
+        "importPath": "api.service.user_service",
+        "description": "api.service.user_service",
+        "peekOfCode": "def view_users():\n    table_print_schema(User, [\"username\", \"email\", \"password_hash\"])\ndef delete_user(email):\n    user = User.objects(email=email).first()\n    user.delete()",
+        "detail": "api.service.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "delete_user",
+        "kind": 2,
+        "importPath": "api.service.user_service",
+        "description": "api.service.user_service",
+        "peekOfCode": "def delete_user(email):\n    user = User.objects(email=email).first()\n    user.delete()",
+        "detail": "api.service.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "api.test.model_test",
+        "description": "api.test.model_test",
+        "peekOfCode": "def init_db():\n    mongoengine.connect(TestingConfig.DB_NAME, host=TestingConfig.HOST)\ndef test_add_role(init_db):\n    role = roles.Role(\n        role_name=\"admin\",\n        permissions=[\n            Permission.USER,\n            Permission.ROOM,\n            Permission.GUEST,\n            Permission.ROLE,",
+        "detail": "api.test.model_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_add_role",
+        "kind": 2,
+        "importPath": "api.test.model_test",
+        "description": "api.test.model_test",
+        "peekOfCode": "def test_add_role(init_db):\n    role = roles.Role(\n        role_name=\"admin\",\n        permissions=[\n            Permission.USER,\n            Permission.ROOM,\n            Permission.GUEST,\n            Permission.ROLE,\n            Permission.BOOKING,\n        ],",
+        "detail": "api.test.model_test",
+        "documentation": {}
+    },
+    {
+        "label": "fix_role",
+        "kind": 2,
+        "importPath": "api.test.model_test",
+        "description": "api.test.model_test",
+        "peekOfCode": "def fix_role(init_db):\n    role = roles.Role(\n        role_name=\"admin\",\n        permissions=[\n            Permission.USER,\n            Permission.ROOM,\n            Permission.GUEST,\n            Permission.ROLE,\n            Permission.BOOKING,\n        ],",
+        "detail": "api.test.model_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_insert_user",
+        "kind": 2,
+        "importPath": "api.test.model_test",
+        "description": "api.test.model_test",
+        "peekOfCode": "def test_insert_user(fix_role, username, email, password, role_name):\n    user_service.add_user(username, email, password, role_name)\n    user = user_service.find_user(email)\n    assert user.username == username\n    assert user.email == email\n    assert user.verify_password(password)\n    assert user.role.role_name == role_name\n    user.delete()\n@pytest.fixture(\n    params=[(\"elywely\", \"randomemail123@Gmail.com\", \"password123\", \"admin\")]",
+        "detail": "api.test.model_test",
+        "documentation": {}
+    },
+    {
+        "label": "fix_user",
+        "kind": 2,
+        "importPath": "api.test.model_test",
+        "description": "api.test.model_test",
+        "peekOfCode": "def fix_user(insert_role, request):\n    username, email, password, role_name = request.param\n    user = user_service.add_user(username, email, password, role_name)\n    yield user\n    user.delete()\n@pytest.mark.parametrize(\n    \"name,surname,email\", [(\"John\", \"Smith\", \"johnsmith123@gmail.com\")]\n)\ndef test_insert_guest(init_db, name, surname, email):\n    guest_service.add_guest(name, surname, email)",
+        "detail": "api.test.model_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_insert_guest",
+        "kind": 2,
+        "importPath": "api.test.model_test",
+        "description": "api.test.model_test",
+        "peekOfCode": "def test_insert_guest(init_db, name, surname, email):\n    guest_service.add_guest(name, surname, email)\n    guest = guest_service.find_guest(email)\n    assert guest.name == name\n    assert guest.surname == surname\n    assert guest.email == email\n    guest.delete()\n@pytest.fixture(params=[(\"John\", \"Smith\", \"johnsmith123@gmail.com\")])\ndef fix_guest(init_db, request):\n    name, surname, email = request.param",
+        "detail": "api.test.model_test",
+        "documentation": {}
+    },
+    {
+        "label": "fix_guest",
+        "kind": 2,
+        "importPath": "api.test.model_test",
+        "description": "api.test.model_test",
+        "peekOfCode": "def fix_guest(init_db, request):\n    name, surname, email = request.param\n    guest = guest_service.add_guest(name, surname, email, return_instance=True)\n    yield guest\n    guest.delete()\ntoday = datetime.datetime.now()\ntomorrow = today + datetime.timedelta(days=1)\nbooking_params = [(today, tomorrow, 400.69, \"confirmed\")]\n@pytest.mark.parametrize(\"checkin,checkout,total_price,status\", booking_params)\ndef insert_booking(fix_guest, fix_room, checkin, checkout, total_price, room, status):",
+        "detail": "api.test.model_test",
+        "documentation": {}
+    },
+    {
+        "label": "insert_booking",
+        "kind": 2,
+        "importPath": "api.test.model_test",
+        "description": "api.test.model_test",
+        "peekOfCode": "def insert_booking(fix_guest, fix_room, checkin, checkout, total_price, room, status):\n    booking = booking_service.add_booking(\n        fix_guest, checkin, checkout, total_price, fix_room, status\n    )\n    booking.save()\n    booking = booking_service.find_booking(id=booking.id).first()\n    assert booking.guest.name == fix_guest.name\n    assert booking.checkin == checkin\n    assert booking.checkout == checkout\n    assert booking.total_price == total_price",
+        "detail": "api.test.model_test",
+        "documentation": {}
+    },
+    {
+        "label": "fix_booking",
+        "kind": 2,
+        "importPath": "api.test.model_test",
+        "description": "api.test.model_test",
+        "peekOfCode": "def fix_booking(fix_guest, fix_room, request):\n    checkin, checkout, total_price, status = request.param\n    booking = booking_service.Booking(\n        guest=fix_guest,\n        checkin=checkin,\n        checkout=checkout,\n        total_price=total_price,\n        room=fix_room,\n        status=status,\n    )",
+        "detail": "api.test.model_test",
+        "documentation": {}
+    },
+    {
+        "label": "fix_room",
+        "kind": 2,
+        "importPath": "api.test.model_test",
+        "description": "api.test.model_test",
+        "peekOfCode": "def fix_room(request):\n    room_name, max_people = request.param\n    room = room_service.add_room(room_name, max_people, return_instance=True)\n    yield room\n    room.delete()",
+        "detail": "api.test.model_test",
+        "documentation": {}
+    },
+    {
+        "label": "today",
+        "kind": 5,
+        "importPath": "api.test.model_test",
+        "description": "api.test.model_test",
+        "peekOfCode": "today = datetime.datetime.now()\ntomorrow = today + datetime.timedelta(days=1)\nbooking_params = [(today, tomorrow, 400.69, \"confirmed\")]\n@pytest.mark.parametrize(\"checkin,checkout,total_price,status\", booking_params)\ndef insert_booking(fix_guest, fix_room, checkin, checkout, total_price, room, status):\n    booking = booking_service.add_booking(\n        fix_guest, checkin, checkout, total_price, fix_room, status\n    )\n    booking.save()\n    booking = booking_service.find_booking(id=booking.id).first()",
+        "detail": "api.test.model_test",
+        "documentation": {}
+    },
+    {
+        "label": "tomorrow",
+        "kind": 5,
+        "importPath": "api.test.model_test",
+        "description": "api.test.model_test",
+        "peekOfCode": "tomorrow = today + datetime.timedelta(days=1)\nbooking_params = [(today, tomorrow, 400.69, \"confirmed\")]\n@pytest.mark.parametrize(\"checkin,checkout,total_price,status\", booking_params)\ndef insert_booking(fix_guest, fix_room, checkin, checkout, total_price, room, status):\n    booking = booking_service.add_booking(\n        fix_guest, checkin, checkout, total_price, fix_room, status\n    )\n    booking.save()\n    booking = booking_service.find_booking(id=booking.id).first()\n    assert booking.guest.name == fix_guest.name",
+        "detail": "api.test.model_test",
+        "documentation": {}
+    },
+    {
+        "label": "booking_params",
+        "kind": 5,
+        "importPath": "api.test.model_test",
+        "description": "api.test.model_test",
+        "peekOfCode": "booking_params = [(today, tomorrow, 400.69, \"confirmed\")]\n@pytest.mark.parametrize(\"checkin,checkout,total_price,status\", booking_params)\ndef insert_booking(fix_guest, fix_room, checkin, checkout, total_price, room, status):\n    booking = booking_service.add_booking(\n        fix_guest, checkin, checkout, total_price, fix_room, status\n    )\n    booking.save()\n    booking = booking_service.find_booking(id=booking.id).first()\n    assert booking.guest.name == fix_guest.name\n    assert booking.checkin == checkin",
+        "detail": "api.test.model_test",
+        "documentation": {}
+    },
+    {
+        "label": "permission_prompt",
+        "kind": 2,
+        "importPath": "api.cli_utils",
+        "description": "api.cli_utils",
+        "peekOfCode": "def permission_prompt():\n    \"\"\"Utility for prompting for multiple permissions.\"\"\"\n    permissions = set()\n    while True:\n        perm = click.prompt(f\"Add a permission (Added so far: {' '.join([str(i) for i in list(permissions)])})\",\n                            type=click.Choice(['USER', 'GUEST', 'ROOM', 'ROLE', 'BOOKING', 'exit'], case_sensitive=False), default='exit')\n        if perm == 'exit':\n            if not permissions:\n                click.echo(\"Enter at least one permission\")\n                continue",
+        "detail": "api.cli_utils",
+        "documentation": {}
+    },
+    {
+        "label": "cli",
+        "kind": 2,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "def cli():\n    global_init()\n    return\n@cli.command(\"add-user\")\n@click.option('--role-name', required=True, prompt=\"The name of the role\")\n@click.option('--username', required=True, prompt=\"Your Username\")\n@click.password_option()\n@click.option('--email', required=True, prompt=\"Your email\")\ndef add_user(username, email, password, role_name):\n    \"\"\"Adds a user to the Administration System\"\"\"",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "add_user",
+        "kind": 2,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "def add_user(username, email, password, role_name):\n    \"\"\"Adds a user to the Administration System\"\"\"\n    user_service.add_user(username, email, password, role_name)\n@cli.command()\n@click.option('--role-name', prompt=\"The name of the role\")\ndef add_role(role_name):\n    \"\"\"Adds a role ro the Database\"\"\"\n    permissions = permission_prompt()\n    role_service.add_role(role_name, permissions)\n@cli.command()",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "add_role",
+        "kind": 2,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "def add_role(role_name):\n    \"\"\"Adds a role ro the Database\"\"\"\n    permissions = permission_prompt()\n    role_service.add_role(role_name, permissions)\n@cli.command()\n@click.option(\"--guest-email\", type=str, prompt=\"Guests email\", required=True)\n@click.option(\"--checkin\", type=click.DateTime(formats=[\"%d/%m/%Y\"]), prompt=\"Checkin date dd/mm/yy\", required=True)\n@click.option(\"--checkout\", type=click.DateTime(formats=[\"%d/%m/%Y\"]), prompt=\"Checkout date dd/mm/yy\", required=True)\n@click.option(\"--total-price\", type=float, prompt=\"Total Price\", required=True)\n@click.option(\"--status\", type=str, prompt=\"Initial Status\", default=\"unconfirmed\")",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "add_booking",
+        "kind": 2,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "def add_booking(guest_email, checkin, checkout, total_price, status):\n    \"\"\"Adds a Booking to the Database. Needs an existing guest's email.\"\"\"\n    guest = Guest.objects(email=guest_email).first()\n    booking_service.add_booking(guest, checkin, checkout, total_price, status)\n@cli.command()\n@click.option(\"--room-name\", type=str, required=True)\n@click.option(\"--max-people\", type=int)\ndef add_room(room_name, max_people):\n    \"\"\"Adds a Room to the Database\"\"\"\n    room_service.add_room(room_name, max_people)",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "add_room",
+        "kind": 2,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "def add_room(room_name, max_people):\n    \"\"\"Adds a Room to the Database\"\"\"\n    room_service.add_room(room_name, max_people)\n@cli.command()\n@click.option(\"--name\", prompt=\"Guest Name\", required=True, type=str)\n@click.option(\"--surname\", prompt=\"Guest Surname\", required=True, type=str)\n@click.option(\"--email\", prompt=\"Guest Email\", required=True, type=str)\ndef add_guest(name, surname, email):\n    \"\"\"Adds a Guest to the Database\"\"\"\n    guest_service.add_guest(name, surname, email)",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "add_guest",
+        "kind": 2,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "def add_guest(name, surname, email):\n    \"\"\"Adds a Guest to the Database\"\"\"\n    guest_service.add_guest(name, surname, email)\n@cli.command()\ndef show_roles():\n    role_service.view_roles()\n@cli.command()\ndef show_users():\n    user_service.view_users()\n@cli.command()",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "show_roles",
+        "kind": 2,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "def show_roles():\n    role_service.view_roles()\n@cli.command()\ndef show_users():\n    user_service.view_users()\n@cli.command()\ndef show_bookings():\n    booking_service.view_bookings()\n@cli.command()\ndef show_guests():",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "show_users",
+        "kind": 2,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "def show_users():\n    user_service.view_users()\n@cli.command()\ndef show_bookings():\n    booking_service.view_bookings()\n@cli.command()\ndef show_guests():\n    guest_service.view_guests()\n@cli.command()\ndef show_rooms():",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "show_bookings",
+        "kind": 2,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "def show_bookings():\n    booking_service.view_bookings()\n@cli.command()\ndef show_guests():\n    guest_service.view_guests()\n@cli.command()\ndef show_rooms():\n    room_service.view_rooms()",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "show_guests",
+        "kind": 2,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "def show_guests():\n    guest_service.view_guests()\n@cli.command()\ndef show_rooms():\n    room_service.view_rooms()",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "show_rooms",
+        "kind": 2,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "def show_rooms():\n    room_service.view_rooms()",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "ch",
+        "kind": 5,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "ch = logging.StreamHandler()\nch.setLevel(logging.INFO)\nformatter = logging.Formatter(\n    '{levelname} | {name} | {module} | {lineno} | {funcName} | {message}', style='{')\nch.setFormatter(formatter)\nlogging.getLogger('').addHandler(ch)\nlogger = logging.getLogger(\"cli\")\n@click.group(invoke_without_command=True)\ndef cli():\n    global_init()",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "formatter",
+        "kind": 5,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "formatter = logging.Formatter(\n    '{levelname} | {name} | {module} | {lineno} | {funcName} | {message}', style='{')\nch.setFormatter(formatter)\nlogging.getLogger('').addHandler(ch)\nlogger = logging.getLogger(\"cli\")\n@click.group(invoke_without_command=True)\ndef cli():\n    global_init()\n    return\n@cli.command(\"add-user\")",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "api.command_line",
+        "description": "api.command_line",
+        "peekOfCode": "logger = logging.getLogger(\"cli\")\n@click.group(invoke_without_command=True)\ndef cli():\n    global_init()\n    return\n@cli.command(\"add-user\")\n@click.option('--role-name', required=True, prompt=\"The name of the role\")\n@click.option('--username', required=True, prompt=\"Your Username\")\n@click.password_option()\n@click.option('--email', required=True, prompt=\"Your email\")",
+        "detail": "api.command_line",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "api.config",
+        "description": "api.config",
+        "peekOfCode": "class Config:\n    DEBUG = False\n    TEST = False\nclass TestingConfig(Config):\n    DB_NAME = 'mongoenginetest'\n    HOST = 'mongomock://localhost'\n    ALIAS = 'testdb'\n    TEST = True\nclass DevelopmentConfig(Config):\n    DEBUG = True",
+        "detail": "api.config",
+        "documentation": {}
+    },
+    {
+        "label": "TestingConfig",
+        "kind": 6,
+        "importPath": "api.config",
+        "description": "api.config",
+        "peekOfCode": "class TestingConfig(Config):\n    DB_NAME = 'mongoenginetest'\n    HOST = 'mongomock://localhost'\n    ALIAS = 'testdb'\n    TEST = True\nclass DevelopmentConfig(Config):\n    DEBUG = True\nclass ProductionConfig(Config):\n    SECRET_KEY = os.getenv(\"SECRET_KEY\")\nconfig_dict = {",
+        "detail": "api.config",
+        "documentation": {}
+    },
+    {
+        "label": "DevelopmentConfig",
+        "kind": 6,
+        "importPath": "api.config",
+        "description": "api.config",
+        "peekOfCode": "class DevelopmentConfig(Config):\n    DEBUG = True\nclass ProductionConfig(Config):\n    SECRET_KEY = os.getenv(\"SECRET_KEY\")\nconfig_dict = {\n    'TEST': TestingConfig,\n    'DEV': DevelopmentConfig,\n    'PRODUCTION': ProductionConfig\n}",
+        "detail": "api.config",
+        "documentation": {}
+    },
+    {
+        "label": "ProductionConfig",
+        "kind": 6,
+        "importPath": "api.config",
+        "description": "api.config",
+        "peekOfCode": "class ProductionConfig(Config):\n    SECRET_KEY = os.getenv(\"SECRET_KEY\")\nconfig_dict = {\n    'TEST': TestingConfig,\n    'DEV': DevelopmentConfig,\n    'PRODUCTION': ProductionConfig\n}",
+        "detail": "api.config",
+        "documentation": {}
+    },
+    {
+        "label": "config_dict",
+        "kind": 5,
+        "importPath": "api.config",
+        "description": "api.config",
+        "peekOfCode": "config_dict = {\n    'TEST': TestingConfig,\n    'DEV': DevelopmentConfig,\n    'PRODUCTION': ProductionConfig\n}",
+        "detail": "api.config",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.8/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.8/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.8/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.8/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.8/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    }
+]

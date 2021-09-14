@@ -12,6 +12,12 @@ def add_room(room_name, max_people, return_instance=False):
         return room
 
 
+def find_room(room_name):
+    return Room.objects(room_name=room_name).first()
+
+def get_all_rooms():
+    return Room.objects().all()
+
 def view_rooms():
     rooms = Room.objects().all()
     table_print_schema(Room, ['room_name', 'max_people'])

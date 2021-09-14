@@ -1,19 +1,31 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 class Config:
     DEBUG = False
+    TEST = False
 
 
 class TestingConfig(Config):
     DB_NAME = 'mongoenginetest'
     HOST = 'mongomock://localhost'
     ALIAS = 'testdb'
+    TEST = True
 
 
 class DevelopmentConfig(Config):
-    pass
+    DEBUG = True
 
 
 class ProductionConfig(Config):
-    pass
+    SECRET_KEY = os.getenv("SECRET_KEY")
+
+
+config_dict = {
+    'TEST': TestingConfig,
+    'DEV': DevelopmentConfig,
+    'PRODUCTION': ProductionConfig
+}

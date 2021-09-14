@@ -1,24 +1,33 @@
-from model.guests import Guest
+from api.model.rooms import Room
+from .model.guests import Guest
 import click
-from service.database_setup import global_init
-from cli_utils import permission_prompt
-from service import guest_service, user_service, room_service, booking_service, role_service
+from .service.database_setup import global_init
+from .cli_utils import permission_prompt
+from .service import (
+    guest_service,
+    user_service,
+    room_service,
+    booking_service,
+    role_service,
+)
+from .model import users
 import logging
 
 
 logging.basicConfig(
-    filename='./general.log',
+    filename="./general.log",
     level=logging.DEBUG,
-    format='{asctime} | {levelname} | {module} | {lineno} | {funcName} | {message}',
-    style='{'
+    format="{asctime} | {levelname} | {module} | {lineno} | {funcName} | {message}",
+    style="{",
 )
 
 ch = logging.StreamHandler()
 ch.setLevel(logging.INFO)
 formatter = logging.Formatter(
-    '{levelname} | {name} | {module} | {lineno} | {funcName} | {message}', style='{')
+    "{levelname} | {name} | {module} | {lineno} | {funcName} | {message}", style="{"
+)
 ch.setFormatter(formatter)
-logging.getLogger('').addHandler(ch)
+logging.getLogger("").addHandler(ch)
 
 logger = logging.getLogger("cli")
 
@@ -30,17 +39,17 @@ def cli():
 
 
 @cli.command("add-user")
-@click.option('--role-name', required=True, prompt="The name of the role")
-@click.option('--username', required=True, prompt="Your Username")
+@click.option("--role-name", required=True, prompt="The name of the role")
+@click.option("--username", required=True, prompt="Your Username")
 @click.password_option()
-@click.option('--email', required=True, prompt="Your email")
+@click.option("--email", required=True, prompt="Your email")
 def add_user(username, email, password, role_name):
     """Adds a user to the Administration System"""
     user_service.add_user(username, email, password, role_name)
 
 
 @cli.command()
-@click.option('--role-name', prompt="The name of the role")
+@click.option("--role-name", prompt="The name of the role")
 def add_role(role_name):
     """Adds a role ro the Database"""
     permissions = permission_prompt()
@@ -49,19 +58,35 @@ def add_role(role_name):
 
 @cli.command()
 @click.option("--guest-email", type=str, prompt="Guests email", required=True)
-@click.option("--checkin", type=click.DateTime(formats=["%d/%m/%Y"]), prompt="Checkin date dd/mm/yy", required=True)
-@click.option("--checkout", type=click.DateTime(formats=["%d/%m/%Y"]), prompt="Checkout date dd/mm/yy", required=True)
+@click.option(
+    "--checkin",
+    type=click.DateTime(formats=["%d/%m/%Y"]),
+    prompt="Checkin date dd/mm/yy",
+    required=True,
+)
+@click.option(
+    "--checkout",
+    type=click.DateTime(formats=["%d/%m/%Y"]),
+    prompt="Checkout date dd/mm/yy",
+    required=True,
+)
 @click.option("--total-price", type=float, prompt="Total Price", required=True)
 @click.option("--status", type=str, prompt="Initial Status", default="unconfirmed")
-def add_booking(guest_email, checkin, checkout, total_price, status):
+@click.option(
+    "--room-name",
+    type=str,
+    prompt=f"The name of the room to book",
+)
+def add_booking(guest_email, checkin, checkout, total_price, status, room_name):
     """Adds a Booking to the Database. Needs an existing guest's email."""
+    room = room_service.find_room(room_name)
     guest = Guest.objects(email=guest_email).first()
-    booking_service.add_booking(guest, checkin, checkout, total_price, status)
+    booking_service.add_booking(guest, checkin, checkout, total_price, room, status)
 
 
 @cli.command()
-@click.option("--room-name", type=str, required=True)
-@click.option("--max-people", type=int)
+@click.option("--room-name", type=str, required=True, prompt="Room Name")
+@click.option("--max-people", type=int, required=True, prompt="Max Number of People")
 def add_room(room_name, max_people):
     """Adds a Room to the Database"""
     room_service.add_room(room_name, max_people)

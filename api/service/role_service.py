@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Union
 import logging
 from .dataservice_utils import table_print_schema
 from ..model.roles import Role, Permission
@@ -6,10 +6,13 @@ from ..model.roles import Role, Permission
 logger = logging.getLogger(__name__)
 
 
-def add_role(role_name, permissions: List[Permission], return_instance=False):
+def add_role(
+    role_name: str, permissions: List[Union[Permission, str]], return_instance=False
+):
+    print(permissions)
     role = Role()
     role.role_name = role_name
-    role.permissions = permissions
+    role.permissions = [Permission[permission] for permission in permissions]
 
     role.save()
     if return_instance:
@@ -17,7 +20,7 @@ def add_role(role_name, permissions: List[Permission], return_instance=False):
 
 
 def view_roles():
-    table_print_schema(Role, ['role_name', 'permissions'])
+    table_print_schema(Role, ["role_name", "permissions"])
 
 
 def delete_role(role_name):
@@ -32,11 +35,19 @@ def find_role(role_name: str) -> Role:
         assert isinstance(role, Role)
 
     except AssertionError:
-        logger.error('Assertion Error', exc_info=True)
+        logger.error("Assertion Error", exc_info=True)
         return None
 
-    logging.info(f'Role {role.name} has been found.')
+    logging.info(f"Role {role.name} has been found.")
     return role
+
+
+def get_all_roles():
+    return Role.objects().all()
+
+
+def wipe_roles():
+    Role.objects().delete()
 
 
 def find_roles_by_permission(permission) -> list:
