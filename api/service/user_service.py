@@ -2,12 +2,12 @@ from ..model.users import User
 from .dataservice_utils import table_print_schema
 
 
-def add_user(username, email, password, role_name, return_instance=False):
+def add_user(username, email, password, role, return_instance=False):
     user = User()
     user.username = username
     user.email = email
     user.password = password
-    user.set_role_by_name(role_name)
+    user.role = role
 
     user.save()
     if return_instance:

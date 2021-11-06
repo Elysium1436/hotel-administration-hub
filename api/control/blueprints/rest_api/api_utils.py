@@ -1,6 +1,17 @@
 from flask_jwt_extended import JWTManager
 import flask
 from api.service.user_service import find_user_by_id
+from flask_restx import fields
+
+
+class Name(fields.Raw):
+    def __init__(self):
+        return
+
+    def format(self, name):
+        lower_name = name.strip().lower()
+        return lower_name.capitalize()
+
 
 jwt = JWTManager()
 

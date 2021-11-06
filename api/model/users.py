@@ -16,6 +16,12 @@ class User(mongoengine.Document):
     password_hash = mongoengine.StringField(required=True)
     role = mongoengine.ReferenceField(Role)
 
+    def __init__(self, *args, **kwargs):
+        password = kwargs.pop("password", None)
+        super().__init__(*args, **kwargs)
+        if password:
+            self.password = password
+
     @property
     def password(self):
         raise AttributeError("Cannot access password")

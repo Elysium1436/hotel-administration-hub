@@ -4,8 +4,8 @@ from ..model.guests import Guest
 
 def add_guest(name, surname, email, return_instance=False):
     guest = Guest()
-    guest.name = name
-    guest.surname = surname
+    guest.name = name.lower()
+    guest.surname = surname.lower()
     guest.email = email
 
     guest.save()
@@ -14,16 +14,21 @@ def add_guest(name, surname, email, return_instance=False):
         return guest
 
 
-def find_guest(email):
-    guest = Guest.objects(email=email).first()
-    if guest is None:
-        raise ValueError(f"Guest with email \"{email}\" doesn't exist.")
+def find_guest(**kwargs):
+    guest = Guest.objects(**kwargs).first()
     return guest
 
 
+def get_all_guests():
+    return Guest.objects.all()
+
+
 def view_guests():
-    guests = Guest.objects().all()
-    table_print_schema(Guest, ['name', 'surname', 'email', 'password_hash'])
+    table_print_schema(Guest, ["name", "surname", "email"])
+
+
+def wipe_guests():
+    Guest.objects().delete()
 
 
 def delete_guest(email):

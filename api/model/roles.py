@@ -5,12 +5,15 @@ from enum import auto
 
 
 class Permission(enum.Enum):
+    USER = "USER"
+    ROOM = "ROOM"
+    GUEST = "GUEST"
+    ROLE = "ROLE"
+    BOOKING = "BOOKING"
 
-    USER = 'USER'
-    ROOM = 'ROOM'
-    GUEST = 'GUEST'
-    ROLE = 'ROLE'
-    BOOKING = 'BOOKING'
+    @classmethod
+    def list_name(cls):
+        return list(map(lambda c: c.name, cls))
 
 
 class Role(mongoengine.Document):
